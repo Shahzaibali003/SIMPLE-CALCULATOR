@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="bootstrap/bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <h1 class="text-center mb-5 mt-4 ">SIMPLE CALCULATOR</h1>
+                <table border="1px" cellspacing="0">
+                    <tr>
+                        <td colspan="4" id="inputLabel">0</td>
+                    </tr>
+                    <tr>
+
+                    </tr>
+                    <tr>
+
+                        <td colspan="3"><button onclick="pushBtn(this);">AC</button></td>
+                        <td><button onclick="pushBtn(this);">/</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="pushBtn(this);">7</button></td>
+                        <td><button onclick="pushBtn(this);">8</button></td>
+                        <td><button onclick="pushBtn(this);">9</button></td>
+                        <td><button onclick="pushBtn(this);">*</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="pushBtn(this);">4</button></td>
+                        <td><button onclick="pushBtn(this);">5</button></td>
+                        <td><button onclick="pushBtn(this);">6</button></td>
+                        <td><button onclick="pushBtn(this);">-</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="pushBtn(this);">1</button></td>
+                        <td><button onclick="pushBtn(this);">2</button></td>
+                        <td><button onclick="pushBtn(this);">3</button></td>
+                        <td><button onclick="pushBtn(this);">+</button></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><button onclick="pushBtn(this);">0</button></td>
+                        <td><button onclick="pushBtn(this);">.</button></td>
+                        <td><button style="background-color:red;" onclick="pushBtn(this);">=</button></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+    </div>
+
+
+</body>
+<script src="app.js"></script>
+
+</html>
